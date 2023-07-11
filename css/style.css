@@ -42,6 +42,10 @@ header h2 {
     font-family: 'Lobster', sans-serif;
     color: #272727;
 }
+header h2 a {
+    color: #272727;
+    text-decoration: none;
+}
 header .menu {
     display: flex;
     align-items: center;
@@ -53,7 +57,7 @@ header .menu {
 }
 .menu ul li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 .menu ul li a {
     text-decoration: none;
