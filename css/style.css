@@ -8,18 +8,19 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .primary-btn {
-    color: #FFF;
     padding: 15px 35px;
     border: none;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
+    color: #FFF;
     border-radius: 8px;
     background: #E55473;
+    cursor: pointer;
 }
 .section-title {
     color: #272727;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 800;
 }
 .primary-description {
@@ -27,6 +28,9 @@ body {
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;
+}
+.span-color {
+    color: #E55473;
 }
 /* Header style start */
 header {
@@ -63,7 +67,7 @@ header {
 }
 /* end */
 
-/* Feature flower style */
+/* Feature flower style start */
 .feature-flower-section {
     padding: 120px 0 50px 0;
     display: flex;
@@ -118,7 +122,7 @@ header {
 }
 .feature-flower-section .row-3 {
     width: 75%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,5 +140,52 @@ header {
     color: rgba(39, 39, 39, 0.80);
     font-size: 15px;
     font-weight: 600;
+}
+/* end */
+
+/* Hot deal section style start */
+.hot-deal-section {
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+.hot-deal-column {
+    width: 40%;
+    text-align: center;
+}
+.hot-deal-section .column-1 p {
+    font-size: 16px;
+    margin: 20px 0 30px 0;
+}
+.hot-deal-section .column-2 {
+    width: 30%;
+}
+/* end */
+
+/* Footer section style start */
+footer {
+    background-color: #111010;
+    padding: 80px 0;
+    text-align: center;
+}
+footer .section-title {
+    color: #ffffff;
+}
+footer .primary-description {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 0 15px 0;
+}
+footer .copyright-text {
+    color: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
 }
 /* end */
